@@ -34,7 +34,7 @@ public class Demande {
     private String type;
     @Column(name = "DEMANDE_NAME_SOCIETE")
     @EqualsAndHashCode.Include
-    private String nameSociéte;
+    private String nameSociete;
     @Column(name = "DEMANDE_MATRICULE_FISCAL_SOCIETE")
     @EqualsAndHashCode.Include
     private String matriculeFiscalSociete;
@@ -44,10 +44,10 @@ public class Demande {
 
 
 
-    public Demande(Long id, String type, String nameSociéte, String matriculeFiscalSociete) {
+    public Demande(Long id, String type, String nameSociete, String matriculeFiscalSociete) {
         this.id = id;
         this.type = type;
-        this.nameSociéte = nameSociéte;
+        this.nameSociete = nameSociete;
         this.matriculeFiscalSociete = matriculeFiscalSociete;
     }
 
